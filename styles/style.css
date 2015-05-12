@@ -72,7 +72,13 @@ p {
 	background-repeat: repeat-x;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    background-size: 85px 159px;}
+    background-size: 85px 159px;
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+  		background-position-y: -62px;	}
+}
 
 /* wrapper */
 .row {
